@@ -24,7 +24,7 @@ function Navbar() {
           </button>
           <button className="px-8 py-3">Sign Up</button>
         </div>
-        <div className="md:hidden cursor-pointer">
+        <div className="md:hidden cursor-pointer mr-4">
           {!nav ? (
             <MenuIcon onClick={handleClick} className="w-5" />
           ) : (
